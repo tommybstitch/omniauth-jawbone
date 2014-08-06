@@ -14,7 +14,7 @@ module OmniAuth
         :site => 'https://jawbone.com',
         :authorize_url => '/auth/oauth2/auth',
         :response_type => 'code',
-        :scope => 'basic_read' 'sleep_read',
+        :scope => 'basic_read' 'sleep_read' 'move_read' 'meal_read',
         :token_url => '/auth/oauth2/token'
         }
 
